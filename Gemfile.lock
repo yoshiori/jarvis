@@ -9,7 +9,6 @@ GEM
       tzinfo (~> 1.1)
     chrono (0.0.6)
       activesupport
-    coderay (1.1.0)
     dotenv (2.0.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -18,13 +17,8 @@ GEM
     i18n (0.7.0)
     json (1.8.3)
     mem (0.1.5)
-    method_source (0.8.2)
     minitest (5.8.0)
     multipart-post (2.0.0)
-    pry (0.10.1)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
     rake (10.4.2)
     redis (3.2.1)
     redis-namespace (1.5.2)
@@ -63,7 +57,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pry
   rake
   ruboty-alias
   ruboty-cron
