@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: SHqvTEr6hcanzRddoU5wHZQoy+tey4wqkdzs+87B9EwvnENt0lE7smet0oqwiN294vS3yT52NFZO3OCzOBFYXLEutZmZyd/MS/3YYCoJ30NrEceMZ1cDzGZH0IyCFs/NCyZqadN+/mzWTs0IJfDIv77nZfINoKzvmBRcaCMVoA9dogqMm3ttIMkl1tM+81v76L04BQwBKXnx8AgRW+ZPlF5kcQMrCKu3FZGqy6A5WyMcOcQw/PlxpaTLhNiLuoiXelF2uCngLORfve5lZP9sNIZH3CGQT4udFK7tomL8xgZo34rJkXLM0gicE5aYI0UQvnOAzBasWxy7pbyhrCrz7NLomtJ/KtDBR48ZvVJGU1/zkMzQ16Ddw2yAKeaBrAdPW5TjdqZrcHf6N0+O8Bvu7EXVoLMm2vODhslZ3VBKQtEq9ixgCFvEI8hWi95pSY3wxSei4gkpVcC5cWXFykKIf2f4sXCxLOtt4QGi6RJHPo2gP0y1uofjNK1J8TvB2Kefo9/w48CQ5tkt4hrpSsKQCpqpVQl2KfbO66DJ1spZT1l50s2gSOrZOy1wcaAAtSW02NMk+orFZgjcgnQWF5lwSiP0NnuDYsT2W1HvFXm3M54y4U89DdricgdLEKT4u+vXskzVWbB2w9feqpJovaHgUR4qA3qHOlEk5YHG7NNMD30=
+  app: nameless-springs-3846
+  on:
+    repo: yoshiori/jarvis
