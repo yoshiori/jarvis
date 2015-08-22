@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/yoshiori/ruboty-irkit.git
+  revision: c3b9d3e432aae7e5999391d35aa3691e64850aac
+  specs:
+    ruboty-irkit (0.1.0)
+      irkit
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,17 +15,30 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    args_parser (0.2.0)
     chrono (0.0.6)
       activesupport
+    dnssd (3.0.1)
     dotenv (2.0.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
+    hashie (3.4.2)
+    httparty (0.13.5)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
+    irkit (0.0.9)
+      args_parser
+      dnssd
+      hashie
+      httparty
+      json
     json (1.8.3)
     mem (0.1.5)
     minitest (5.8.0)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     rake (10.4.2)
     redis (3.2.1)
@@ -61,8 +82,9 @@ DEPENDENCIES
   ruboty-alias
   ruboty-cron
   ruboty-google_image
+  ruboty-irkit!
   ruboty-redis
   ruboty-slack
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
