@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/rosylilly/ruboty-slack_rtm.git
+  revision: 240601d7a8f7a16dc87e0524d47c2a0e6ee088af
+  specs:
+    ruboty-slack_rtm (2.4.2)
+      ruboty (>= 1.1.4)
+      slack-api (~> 1.2)
+      websocket-client-simple (~> 0.3.0)
+
+GIT
   remote: git://github.com/yoshiori/ruboty-irkit.git
   revision: fe067adacd7276f0d7ba0832b7e639f12733599e
   specs:
@@ -16,41 +25,41 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.3)
+    activesupport (4.2.6)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    chrono (0.0.6)
+    chrono (0.3.0)
       activesupport
-    dotenv (2.0.2)
+    dotenv (2.1.1)
     event_emitter (0.2.5)
     eventmachine (1.2.0.1)
-    faraday (0.9.1)
+    faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
     faye-websocket (0.9.2)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    httparty (0.13.5)
+    httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
     json (1.8.3)
     mem (0.1.5)
-    minitest (5.8.0)
+    minitest (5.8.4)
     multi_json (1.12.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     open-weather (0.11.0)
       json
-    rake (10.4.2)
-    redis (3.2.1)
+    rake (11.1.2)
+    redis (3.3.0)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.2.2)
+    ruboty (1.2.4)
       activesupport
       bundler
       dotenv
@@ -58,28 +67,24 @@ GEM
       slop
     ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
-    ruboty-cron (1.0.1)
+    ruboty-cron (1.1.0)
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-google_image (0.0.7)
+    ruboty-google_image (0.1.0)
       faraday
       faraday_middleware
       ruboty
-    ruboty-redis (0.0.5)
+    ruboty-redis (0.0.6)
       redis
       redis-namespace
       ruboty
-    ruboty-slack_rtm (2.2.0)
-      ruboty (>= 1.1.4)
-      slack-api (~> 1.2)
-      websocket-client-simple (~> 0.3.0)
     slack-api (1.2.2)
       faraday (>= 0.7, < 0.10)
       faraday_middleware (~> 0.8)
       faye-websocket (~> 0.9.2)
       multi_json (~> 1.0, >= 1.0.3)
-    slop (4.2.0)
+    slop (4.3.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -102,7 +107,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-irkit!
   ruboty-redis
-  ruboty-slack_rtm
+  ruboty-slack_rtm!
 
 BUNDLED WITH
    1.10.6
