@@ -6,6 +6,13 @@ GIT
       httparty
       ruboty
 
+PATH
+  remote: plugins/ruboty-air_conditioner
+  specs:
+    ruboty-air_conditioner (0.1.0)
+      open-weather
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,6 +44,8 @@ GEM
     multi_json (1.12.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    open-weather (0.11.0)
+      json
     rake (10.4.2)
     redis (3.2.1)
     redis-namespace (1.5.2)
@@ -87,6 +96,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-air_conditioner!
   ruboty-alias
   ruboty-cron
   ruboty-google_image
