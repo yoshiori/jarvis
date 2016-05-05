@@ -21,7 +21,7 @@ module Ruboty
       def start(message)
         robot.receive(
           message.original.merge(
-            body: "#{message.body[prefix]} #{air_conditioner_command}"
+            body: "#{message.body[prefix]} irkit #{air_conditioner_command}"
           )
         )
       end
@@ -29,7 +29,7 @@ module Ruboty
       def stop(message)
         robot.receive(
           message.original.merge(
-            body: "#{message.body[prefix]} stop_air_conditioner"
+            body: "#{message.body[prefix]} irkit stop_air_conditioner"
           )
         )
       end
