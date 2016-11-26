@@ -35,7 +35,7 @@ module Ruboty
       end
 
       def air_conditioner_command
-        temp > 15 ? "cooling_23" : "heating_28"
+        temp > 15 ? "cooling_23" : "heating_23"
       end
 
       def temp
